@@ -43,12 +43,12 @@ function countdown(data) {
 (function () {
   data = [{
       date: '2019-05-26 8:00:00',
-      desc: 'Wybory do parlamentu europejskiego, wybierz najlepszych.',
+      desc: 'Wybory do Parlamentu Europejskiego, wybierz najlepszych.',
       bg: 'plue.jpg',
     },
     {
       date: '2019-10-27 8:00:00',
-      desc: 'Wybory do sejmu i senatu, wybierz mądrze.',
+      desc: 'Wybory do Sejmu i Senatu, wybierz mądrze.',
       bg: 'gozdziki.jpg',
     }
   ]
