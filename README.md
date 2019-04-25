@@ -1,9 +1,9 @@
 **INSTALACJA I OPIS**
 * Rozpakuj repozytorium w dowolnym katalogu dla przykładu rozpakuj w katalogu "Moje Dokumenty"
 * Rozpakuj wraz z katalogiem "countdown".
-* Otwórz katalog i kliknij otwórz na dokumencie "count-down.html"
+* Otwórz katalog i kliknij otwórz na dokumencie "index.html"
 * Otworzy się Twoja przeglądarka i strona odliczająca czas pozostały do wyborów do Parlamentu Europejskiego.
-* Jeżeli chcesz uzywać strony jako strony startowej to skopiuj link do strony dla przykładu(U ciebie bedzie inny link): "[file:///F:/Documents/countdown/count-down.html](file:///F:/Documents/countdown/count-down.html)". Otwórz "ustawienia" przeglądarki, dla chrome bedzie to link "_**chrome://settings/**_". Poszukaj sekcji "_**Po uruchomieniu**_" i wpisz tam link który skopiowałeś ze schowka. Po każdym nastepnym uruchomieniu okna przeglądarki bedzie działała ta strona.
+* Jeżeli chcesz uzywać strony jako strony startowej to skopiuj link do strony dla przykładu(U ciebie bedzie inny link): "[file:///F:/Documents/countdown/index.html](file:///F:/Documents/countdown/index.html)". Otwórz "ustawienia" przeglądarki, dla chrome bedzie to link "_**chrome://settings/**_". Poszukaj sekcji "_**Po uruchomieniu**_" i wpisz tam link który skopiowałeś ze schowka. Po każdym nastepnym uruchomieniu okna przeglądarki bedzie działała ta strona.
 * Strona jest konfigurowalna i terminy odliczania i tekst można zmieniać.Wykonuje się to modyfikując skrypt w pliku "_**countdown.js**_". Otwórz plik w notatniku i przesuń kursor do linii z fragmentem :
   ```javascript
     data = [{

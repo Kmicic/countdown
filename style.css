@@ -1,6 +1,7 @@
 
 
     body {
+            font-family: Lato;
             margin: 1rem;
             background-size: cover;
             background-repeat : no-repeat;
@@ -29,20 +30,20 @@
     }
     .boxtime {
         color:white;
-        font: 2rem system-ui;
+        font-size: 2rem;
         background-color: rgba(0, 0, 0, 0.719);
 
         grid-row: 2;
     }
     .boxdesc {
         color:white;
-        font: .6rem system-ui;
+        font-size: .6rem;
         background-color: rgba(0, 100, 0, 0.527);
 
         grid-row-gap: 0px;
     }  
     .descript {
-        font: 1rem system-ui;
+        font-size: 1rem;
         color:white;
         grid-row:3;
         grid-column: 1/ -1;
