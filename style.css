@@ -1,0 +1,55 @@
+
+
+    body {
+            margin: 1rem;
+            background-size: cover;
+            background-repeat : no-repeat;
+            background-image : url(plue.jpg);                
+          }
+    .icons {
+            margin-top:30px;
+            width: 60px;
+            height: 60px;
+            z-index: 8;
+        }          
+    .container {
+            display: grid;
+            margin: 0 auto;
+            max-width: 1280px;
+            width: 90%;
+            grid-auto-flow: row dense;
+            grid-auto-rows: auto;
+            grid-template-columns: 1.5fr 1.5fr  1.5fr 1.5fr;
+            grid-column-gap: 10px;
+            grid-row-gap: 2px;
+            vertical-align: middle;
+    }
+    div {
+        text-align: center;
+    }
+    .boxtime {
+        color:white;
+        font: 2rem system-ui;
+        background-color: rgba(0, 0, 0, 0.719);
+
+        grid-row: 2;
+    }
+    .boxdesc {
+        color:white;
+        font: .6rem system-ui;
+        background-color: rgba(0, 100, 0, 0.527);
+
+        grid-row-gap: 0px;
+    }  
+    .descript {
+        font: 1rem system-ui;
+        color:white;
+        grid-row:3;
+        grid-column: 1/ -1;
+        background-color: rgba(4, 8, 255, 0.287);
+    }      
+    .google {
+        grid-row:5;
+        grid-column: 1/ -1;
+    }   
+
